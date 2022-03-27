@@ -11,6 +11,7 @@
   inputs.src-daemonim-master.ref   = "refs/heads/master";
   inputs.src-daemonim-master.owner = "bung87";
   inputs.src-daemonim-master.repo  = "daemon";
+  inputs.src-daemonim-master.dir   = "";
   inputs.src-daemonim-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
